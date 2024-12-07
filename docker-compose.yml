@@ -1,0 +1,15 @@
+services:
+  fpp:
+    image: falconchristmas/fpp:latest
+    container_name: fpp-media-extended-commands
+    ports:
+      - 80:80
+      - 4048:4048/udp
+      - 5568:5568/udp
+      - 32320:32320/udp
+    volumes:
+      - fppConfig:/home/fpp/media
+      - .:/home/fpp/media/plugins/fpp-media-extended-commands
+
+volumes:
+  fppConfig:

@@ -1,0 +1,25 @@
+{
+	"repoName": "fpp-media-extended-commands",
+	"name": "Media Extended Commands",
+	"author": "Stafford Brunk (wingrunr21)",
+	"description": "This plugin provides commands to fetch extracted metadata from media files and then trigger other commands with that data",
+	"homeURL": "https://github.com/wingrunr21/fpp-media-extended-commands",
+	"srcURL": "https://github.com/wingrunr21/fpp-media-extended-commands.git",
+	"bugURL": "https://github.com/wingrunr21/fpp-media-extended-commands/issues",
+	"allowUpdates": 1,
+	"versions": [
+		{
+			"minFPPVersion": "6.0",
+			"maxFPPVersion": "7.99",
+			"branch": "master",
+			"sha": ""
+		},
+		{
+			"minFPPVersion": "8.0",
+			"maxFPPVersion": "0",
+			"branch": "master",
+			"sha": "",
+			"allowUpdates": 1
+		}
+	]
+}

@@ -11,13 +11,13 @@
 		{
 			"minFPPVersion": "6.0",
 			"maxFPPVersion": "7.99",
-			"branch": "master",
+			"branch": "main",
 			"sha": ""
 		},
 		{
 			"minFPPVersion": "8.0",
 			"maxFPPVersion": "0",
-			"branch": "master",
+			"branch": "main",
 			"sha": "",
 			"allowUpdates": 1
 		}
